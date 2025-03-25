@@ -57,7 +57,6 @@
             this.grbIngresoDatos.TabIndex = 0;
             this.grbIngresoDatos.TabStop = false;
             this.grbIngresoDatos.Text = "Ingreso de Datos";
-            
             // 
             // btnAgregar
             // 
@@ -123,6 +122,7 @@
             this.lbRecibeElementos.ItemHeight = 16;
             this.lbRecibeElementos.Location = new System.Drawing.Point(19, 31);
             this.lbRecibeElementos.Name = "lbRecibeElementos";
+            this.lbRecibeElementos.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
             this.lbRecibeElementos.Size = new System.Drawing.Size(327, 308);
             this.lbRecibeElementos.TabIndex = 7;
             // 
