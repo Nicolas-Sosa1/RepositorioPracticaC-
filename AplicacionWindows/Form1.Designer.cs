@@ -46,7 +46,7 @@
             this.btnEjercicio3 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.btnPractica8 = new System.Windows.Forms.Button();
             this.btnPractica6 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -221,15 +221,16 @@
             this.button6.Text = "button6";
             this.button6.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // btnPractica8
             // 
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(597, 290);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(135, 33);
-            this.button7.TabIndex = 19;
-            this.button7.Text = "practica";
-            this.button7.UseVisualStyleBackColor = true;
+            this.btnPractica8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPractica8.Location = new System.Drawing.Point(597, 290);
+            this.btnPractica8.Name = "btnPractica8";
+            this.btnPractica8.Size = new System.Drawing.Size(135, 33);
+            this.btnPractica8.TabIndex = 19;
+            this.btnPractica8.Text = "Practica 8";
+            this.btnPractica8.UseVisualStyleBackColor = true;
+            this.btnPractica8.Click += new System.EventHandler(this.btnPractica8_Click);
             // 
             // btnPractica6
             // 
@@ -249,7 +250,7 @@
             this.ClientSize = new System.Drawing.Size(800, 532);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button6);
-            this.Controls.Add(this.button7);
+            this.Controls.Add(this.btnPractica8);
             this.Controls.Add(this.btnPractica6);
             this.Controls.Add(this.btnCalculadora);
             this.Controls.Add(this.btnEjercicio3);
@@ -297,7 +298,7 @@
         private System.Windows.Forms.Button btnEjercicio3;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button btnPractica8;
         private System.Windows.Forms.Button btnPractica6;
     }
 }

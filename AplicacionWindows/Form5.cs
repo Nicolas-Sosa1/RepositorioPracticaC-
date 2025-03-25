@@ -143,6 +143,7 @@ namespace AplicacionWindows
             numero1 = Convert.ToDouble(txtResultado.Text);
             numero1 *= -1;
             txtResultado.Text = numero1.ToString();
+
         }
     }
 }

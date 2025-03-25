@@ -128,5 +128,12 @@ namespace AplicacionWindows
             this.Hide();
 
         }
+
+        private void btnPractica8_Click(object sender, EventArgs e)
+        {
+            FormPractica8 formPractica8 = new FormPractica8(this);
+            formPractica8.Show();
+            this.Hide();
+        }
     }
 }

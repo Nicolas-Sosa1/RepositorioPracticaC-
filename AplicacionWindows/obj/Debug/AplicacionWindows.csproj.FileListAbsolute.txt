@@ -14,3 +14,4 @@ C:\Users\bubit\Desktop\C#\Practica 5-2.0 (aplicacion Windows)\AplicacionWindows\
 C:\Users\bubit\Desktop\C#\Practica 5-2.0 (aplicacion Windows)\AplicacionWindows\AplicacionWindows\obj\Debug\AplicacionWindows.FormCalculadora.resources
 C:\Users\bubit\Desktop\C#\Practica 5-2.0 (aplicacion Windows)\AplicacionWindows\AplicacionWindows\obj\Debug\AplicacionWindows.FormPractica6.resources
 C:\Users\bubit\Desktop\C#\Practica 5-2.0 (aplicacion Windows)\AplicacionWindows\AplicacionWindows\obj\Debug\AplicacionWindows.UserControl1.resources
+C:\Users\bubit\Desktop\C#\Practica 5-2.0 (aplicacion Windows)\AplicacionWindows\AplicacionWindows\obj\Debug\AplicacionWindows.FormPractica8.resources
