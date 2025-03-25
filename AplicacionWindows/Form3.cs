@@ -84,24 +84,51 @@ namespace AplicacionWindows
 
         private void btnBorrar_Click(object sender, EventArgs e)
         {
-            if (lbRecibeElementos.SelectedItems.Count>0)
-            {
-                List<string> itemSeleccionados = new List<string>();
+            //if (lbRecibeElementos.SelectedItems.Count>0)
+            //{
+            //    List<string> itemSeleccionados = new List<string>();
 
-                foreach(string item in lbRecibeElementos.SelectedItems)
+            //    foreach(string item in lbRecibeElementos.SelectedItems)
+            //    {
+            //        itemSeleccionados.Add(item);
+            //    }
+
+            //    foreach(string item in itemSeleccionados)
+            //    {
+            //        lbRecibeElementos.Items.Remove(item);
+            //    }
+            //}
+            //else
+            //{
+            //    MessageBox.Show("Debe selecionar al menos Elemento", "Atencion");
+            //}
+
+
+            if (lbRecibeElementos.SelectedItems.Count > 0)
+            {
+                // Crear un array con los elementos seleccionados
+                string[] itemSeleccionados = new string[lbRecibeElementos.SelectedItems.Count];
+
+                for (int i = 0; i < lbRecibeElementos.SelectedItems.Count; i++)
                 {
-                    itemSeleccionados.Add(item);
+                    itemSeleccionados[i] = lbRecibeElementos.SelectedItems[i].ToString(); // CORREGIDO
                 }
 
-                foreach(string item in itemSeleccionados)
+                // Eliminar los elementos seleccionados
+                foreach (string item in itemSeleccionados)
                 {
                     lbRecibeElementos.Items.Remove(item);
                 }
             }
             else
             {
-                MessageBox.Show("Debe selecionar al menos Elemento", "Atencion");
+                MessageBox.Show("Debe seleccionar al menos un elemento", "Atención");
             }
+
+
+
+
+
         }
 
         private void btnVolver_Click(object sender, EventArgs e)
