@@ -11,6 +11,7 @@ using System.Windows.Forms;
 namespace AplicacionWindows
 {
     
+
     public partial class FormPractica8 : Form
     {
         FormPrincipal formPrincipal;
@@ -40,6 +41,12 @@ namespace AplicacionWindows
                 }
 
             }
+            else
+            {
+                MessageBox.Show("Debe seleccionar minimo uno", "Atención");
+            }
         }
+
+        
     }
 }

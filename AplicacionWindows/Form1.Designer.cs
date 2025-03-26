@@ -48,6 +48,7 @@
             this.button6 = new System.Windows.Forms.Button();
             this.btnPractica8 = new System.Windows.Forms.Button();
             this.btnPractica6 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblApellido
@@ -243,11 +244,21 @@
             this.btnPractica6.UseVisualStyleBackColor = true;
             this.btnPractica6.Click += new System.EventHandler(this.btnPractica6_Click);
             // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.textBox1.Location = new System.Drawing.Point(153, 13);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(254, 20);
+            this.textBox1.TabIndex = 22;
+            // 
             // FormPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::AplicacionWindows.Properties.Resources.charles_oliveira_islam_makhachev1;
             this.ClientSize = new System.Drawing.Size(800, 532);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.btnPractica8);
@@ -300,6 +311,7 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button btnPractica8;
         private System.Windows.Forms.Button btnPractica6;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 

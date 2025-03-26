@@ -22,7 +22,7 @@ namespace AplicacionWindows
 
         private void FormEjercicio2_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void FormEjercicio2_FormClosed(object sender, FormClosedEventArgs e)
@@ -150,6 +150,37 @@ namespace AplicacionWindows
             this.Close();
         }
 
-        
+        private void txtNombre_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtNombre_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((e.KeyChar >= 65 && e.KeyChar <= 90) ||  // Letras mayúsculas (A-Z)
+                (e.KeyChar >= 97 && e.KeyChar <= 122) || // Letras minúsculas (a-z)
+                 (e.KeyChar == 8))  // Backspace (para borrar)
+            {
+                e.Handled = false; // Permite el ingreso
+            }
+            else
+            {
+                e.Handled = true; // Bloquea cualquier otra tecla
+            }
+        }
+
+        private void txtApellido_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((e.KeyChar >= 65 && e.KeyChar <= 90) ||  // Letras mayúsculas (A-Z)
+                (e.KeyChar >= 97 && e.KeyChar <= 122) || // Letras minúsculas (a-z)
+                 (e.KeyChar == 8))  // Backspace (para borrar)
+            {
+                e.Handled = false; // Permite el ingreso
+            }
+            else
+            {
+                e.Handled = true; // Bloquea cualquier otra tecla
+            }
+        }
     }
 }

@@ -82,6 +82,7 @@
             this.Name = "FormPractica8";
             this.Text = "ListBox y CheckedListBox";
             this.Load += new System.EventHandler(this.FormPractica8_Load);
+            
             this.ResumeLayout(false);
 
         }
