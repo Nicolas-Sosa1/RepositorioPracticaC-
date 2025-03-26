@@ -78,12 +78,25 @@ namespace AplicacionWindows
                 txtNombre.Clear();
                 txtApellido.Clear();
             }
+            else if(txtApellido.Text == "" && txtNombre.Text == "")
+            {
+                MessageBox.Show("Debe ingresar un nombre y apellido", "Atención");
+            }
+            else if(txtApellido.Text != "" && txtNombre.Text == ""){
+
+                MessageBox.Show("Debe ingresar un nombre", "Atención");
+            }
+            else
+            {
+                MessageBox.Show("Debe ingresar un apellido", "Atención");
+            }
         }
 
 
 
         private void btnBorrar_Click(object sender, EventArgs e)
         {
+
             //if (lbRecibeElementos.SelectedItems.Count>0)
             //{
             //    List<string> itemSeleccionados = new List<string>();
