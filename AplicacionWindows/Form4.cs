@@ -32,21 +32,32 @@ namespace AplicacionWindows
 
 
 
+
         }
 
         private void btnMostrar_Click(object sender, EventArgs e)
         {
-            string genero = rdbFemenino.Checked ? "Femenino" : "Masculino";
-            string estadoCivil = rdbSoltero.Checked ? "Soltero" : "Casado";
-
-            lblResultados.Text = "Usted seleccionó los siguientes elementos:\n" +
-            "Sexo: " + genero + "\n" +
-            "Estado Civil: " + estadoCivil + "\n" +
-            "Oficio:\n";
-
-            foreach(string item in clbOficio.CheckedItems)
+            if (clbOficio.CheckedItems.Count > 0)
             {
-                lblResultados.Text += item + "\n";
+                string genero = rdbFemenino.Checked ? "Femenino" : "Masculino";
+                string estadoCivil = rdbSoltero.Checked ? "Soltero" : "Casado";
+
+            
+                lblResultados.Text = "Usted seleccionó los siguientes elementos:\n" +
+                "Sexo: " + genero + "\n" +
+                "Estado Civil: " + estadoCivil + "\n" +
+                "Oficio:\n";
+
+                foreach (string item in clbOficio.CheckedItems)
+                {
+                    lblResultados.Text += item + "\n";
+                }
+
+            }
+
+            if (clbOficio.CheckedItems.Count == 0)
+            {
+                MessageBox.Show("Debe Selecionar minimo un Oficio", "Atencion");
             }
         }
 

@@ -162,7 +162,8 @@
             // 
             // FormEjercicioTp1
             // 
-            this.FormEjercicioTp1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormEjercicioTp1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.FormEjercicioTp1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormEjercicioTp1.Location = new System.Drawing.Point(597, 86);
             this.FormEjercicioTp1.Name = "FormEjercicioTp1";
             this.FormEjercicioTp1.Size = new System.Drawing.Size(135, 33);
@@ -173,7 +174,8 @@
             // 
             // btnEjercicio2
             // 
-            this.btnEjercicio2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEjercicio2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEjercicio2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEjercicio2.Location = new System.Drawing.Point(597, 125);
             this.btnEjercicio2.Name = "btnEjercicio2";
             this.btnEjercicio2.Size = new System.Drawing.Size(135, 33);
@@ -184,7 +186,8 @@
             // 
             // btnCalculadora
             // 
-            this.btnCalculadora.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalculadora.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCalculadora.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCalculadora.Location = new System.Drawing.Point(597, 206);
             this.btnCalculadora.Name = "btnCalculadora";
             this.btnCalculadora.Size = new System.Drawing.Size(135, 33);
@@ -195,7 +198,8 @@
             // 
             // btnEjercicio3
             // 
-            this.btnEjercicio3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEjercicio3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEjercicio3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEjercicio3.Location = new System.Drawing.Point(597, 167);
             this.btnEjercicio3.Name = "btnEjercicio3";
             this.btnEjercicio3.Size = new System.Drawing.Size(135, 33);
@@ -206,7 +210,8 @@
             // 
             // button5
             // 
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.Location = new System.Drawing.Point(597, 371);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(135, 33);
@@ -216,7 +221,8 @@
             // 
             // button6
             // 
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.Location = new System.Drawing.Point(597, 332);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(135, 33);
@@ -226,7 +232,8 @@
             // 
             // btnPractica8
             // 
-            this.btnPractica8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPractica8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPractica8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPractica8.Location = new System.Drawing.Point(597, 290);
             this.btnPractica8.Name = "btnPractica8";
             this.btnPractica8.Size = new System.Drawing.Size(135, 33);
@@ -237,7 +244,8 @@
             // 
             // btnPractica6
             // 
-            this.btnPractica6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPractica6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPractica6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPractica6.Location = new System.Drawing.Point(597, 251);
             this.btnPractica6.Name = "btnPractica6";
             this.btnPractica6.Size = new System.Drawing.Size(135, 33);
