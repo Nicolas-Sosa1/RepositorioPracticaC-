@@ -85,6 +85,7 @@
             this.txtIngresoNombre.Name = "txtIngresoNombre";
             this.txtIngresoNombre.Size = new System.Drawing.Size(330, 20);
             this.txtIngresoNombre.TabIndex = 4;
+            this.txtIngresoNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtIngresoNombre_KeyPress);
             // 
             // checkBoxProgramador
             // 
@@ -144,6 +145,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MediumAquamarine;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.txtSalida);
             this.Controls.Add(this.groupBoxSexo);
@@ -156,6 +158,7 @@
             this.Name = "FormPractica6";
             this.Text = "Radiobutton y CheckBox";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormPractica6_FormClosed);
+            this.Load += new System.EventHandler(this.FormPractica6_Load);
             this.groupBoxSexo.ResumeLayout(false);
             this.groupBoxSexo.PerformLayout();
             this.ResumeLayout(false);

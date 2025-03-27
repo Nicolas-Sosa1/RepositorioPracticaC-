@@ -29,7 +29,16 @@ namespace AplicacionWindows
 
         private void btnOk_Click(object sender, EventArgs e)
         {
-
+           if(txtIngresoNombre.Text!= "")
+            {
+                string Programador = checkBoxProgramador.Checked ? "Programador" : "No Programador";
+                string genero = rdbHombre.Checked ? "Hombre" : "Mujer";
+                txtSalida.Text = txtIngresoNombre.Text + "\r\n" + Programador + "\r\n" + genero;
+            }
+            else
+            {
+                MessageBox.Show("Debe ingresar un nombre", "Atencion");
+            }
         }
 
         private void FormPractica6_FormClosed(object sender, FormClosedEventArgs e)
@@ -38,7 +47,24 @@ namespace AplicacionWindows
             
         }
 
-       
+        private void FormPractica6_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtIngresoNombre_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((e.KeyChar >= 65 && e.KeyChar <= 90) ||  // Letras mayúsculas (A-Z)
+               (e.KeyChar >= 97 && e.KeyChar <= 122) || // Letras minúsculas (a-z)
+               (e.KeyChar == 8))  // Backspace (para borrar)
+            {
+                e.Handled = false; // Permite el ingreso
+            }
+            else
+            {
+                e.Handled = true; // Bloquea cualquier otra tecla
+            }
+        }
     }
 }
 
