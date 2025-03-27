@@ -47,6 +47,14 @@ namespace AplicacionWindows
             }
         }
 
-        
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void FormPractica8_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            formPrincipal.Show();
+        }
     }
 }

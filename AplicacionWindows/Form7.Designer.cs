@@ -31,6 +31,7 @@
             this.lbRecibidos = new System.Windows.Forms.ListBox();
             this.clbNumeros = new System.Windows.Forms.CheckedListBox();
             this.btnMover = new System.Windows.Forms.Button();
+            this.btnVolver = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbRecibidos
@@ -71,18 +72,29 @@
             this.btnMover.UseVisualStyleBackColor = true;
             this.btnMover.Click += new System.EventHandler(this.btnMover_Click);
             // 
+            // btnVolver
+            // 
+            this.btnVolver.Location = new System.Drawing.Point(339, 244);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(123, 33);
+            this.btnVolver.TabIndex = 3;
+            this.btnVolver.Text = "Volver";
+            this.btnVolver.UseVisualStyleBackColor = true;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
+            // 
             // FormPractica8
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.btnMover);
             this.Controls.Add(this.clbNumeros);
             this.Controls.Add(this.lbRecibidos);
             this.Name = "FormPractica8";
             this.Text = "ListBox y CheckedListBox";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormPractica8_FormClosed);
             this.Load += new System.EventHandler(this.FormPractica8_Load);
-            
             this.ResumeLayout(false);
 
         }
@@ -92,5 +104,6 @@
         private System.Windows.Forms.ListBox lbRecibidos;
         private System.Windows.Forms.CheckedListBox clbNumeros;
         private System.Windows.Forms.Button btnMover;
+        private System.Windows.Forms.Button btnVolver;
     }
 }
