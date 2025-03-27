@@ -48,6 +48,7 @@
             this.button6 = new System.Windows.Forms.Button();
             this.btnPractica8 = new System.Windows.Forms.Button();
             this.btnPractica6 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblApellido
@@ -93,7 +94,6 @@
             this.txtApellido.Size = new System.Drawing.Size(254, 20);
             this.txtApellido.TabIndex = 5;
             this.txtApellido.TextChanged += new System.EventHandler(this.txtApellido_TextChanged);
-            this.txtApellido.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtApellido_KeyPress);
             // 
             // txtNombre
             // 
@@ -102,7 +102,6 @@
             this.txtNombre.Size = new System.Drawing.Size(254, 20);
             this.txtNombre.TabIndex = 6;
             this.txtNombre.TextChanged += new System.EventHandler(this.txtNombre_TextChanged);
-            this.txtNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombre_KeyPress);
             // 
             // txtDireccion
             // 
@@ -111,7 +110,6 @@
             this.txtDireccion.Size = new System.Drawing.Size(254, 20);
             this.txtDireccion.TabIndex = 8;
             this.txtDireccion.TextChanged += new System.EventHandler(this.txtDireccion_TextChanged);
-            this.txtDireccion.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtDireccion_KeyPress);
             // 
             // txtEdad
             // 
@@ -246,12 +244,21 @@
             this.btnPractica6.UseVisualStyleBackColor = true;
             this.btnPractica6.Click += new System.EventHandler(this.btnPractica6_Click);
             // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.textBox1.Location = new System.Drawing.Point(153, 13);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(254, 20);
+            this.textBox1.TabIndex = 22;
+            // 
             // FormPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackgroundImage = global::AplicacionWindows.Properties.Resources.charles_oliveira_islam_makhachev1;
             this.ClientSize = new System.Drawing.Size(800, 532);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.btnPractica8);
@@ -272,7 +279,6 @@
             this.Controls.Add(this.lblEdad);
             this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.lblApellido);
-            this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.MaximizeBox = false;
             this.Name = "FormPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -305,6 +311,7 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button btnPractica8;
         private System.Windows.Forms.Button btnPractica6;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
